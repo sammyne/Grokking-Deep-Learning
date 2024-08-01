@@ -1,0 +1,7 @@
+[workspace]
+members = ["chapter03"]
+
+resolver = "2"
+
+[workspace.dependencies]
+ndarray = "0.15.6"
