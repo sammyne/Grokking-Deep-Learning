@@ -1,7 +1,8 @@
 [workspace]
-members = ["chapter03", "chapter04"]
+members = ["chapter03", "chapter04", "chapter06"]
 
 resolver = "2"
 
 [workspace.dependencies]
-ndarray = "0.15.6"
+ndarray = "0.16"
+ndarray-rand = "0.15"

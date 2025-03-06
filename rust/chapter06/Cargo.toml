@@ -1,0 +1,24 @@
+[package]
+name = "chapter05"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ndarray.workspace = true
+ndarray-rand.workspace = true
+
+[[example]]
+name = "backpropagation-in-code"
+path = "examples/backpropagation_in_code.rs"
+
+[[example]]
+name = "learn-the-whole-dataset"
+path = "examples/learn_the_whole_dataset.rs"
+
+[[example]]
+name = "put-it-all-together"
+path = "examples/put_it_all_together.rs"
+
+[[example]]
+name = "your-first-deep-neural-network"
+path = "examples/your_first_deep_neural_network.rs"
